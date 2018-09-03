@@ -7,6 +7,6 @@ $TTL 86400
         86400; tiempo total de vida
 )
 @	IN	NS	toborochi.iasoft.com.bo.
-@	IN	PTR	toborochi.iasoft.com.bo.
-@	IN 	PTR	www.iasoft.com.bo.
-@	IN	PTR	mail.iasoft.com.bo.
+110	IN	PTR	toborochi.iasoft.com.bo.
+111	IN	PTR	www.iasoft.com.bo.
+112	IN	PTR	mail.iasoft.com.bo.

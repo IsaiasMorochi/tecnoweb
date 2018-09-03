@@ -10,7 +10,8 @@
 #	Verificar puerto abierto 53(DNS)
 6	nmap ip
 #	Verificar los servicios
-6	nslookup www.midomio.com.bo localhost
-7	nslookup mail.midominio.com.bo localhost
-8	nslookup ftp.midominio.com.bo localhost
-
+7	nslookup www.midomio.com.bo localhost
+8	nslookup mail.midominio.com.bo localhost
+9	nslookup ftp.midominio.com.bo localhost
+#	Verificar DNS inverso
+10	nslookup 172.20.172.110 localhost
