@@ -1,0 +1,15 @@
+$TTL 86400
+@	IN	SOA	iasoft.com.bo. icode295.gmail.com. (
+	2018083101; numero de serie
+	28800; tiempo de refresco
+	7200; tiempo entre reintentos y consultas
+	604800; tiempo tras el cual expira la zona
+	86400; tiempo total de vida
+)
+@	IN	NS	toborochi.
+@	IN	MX	10	mail
+@	IN	A	172.20.172.110
+toborochi	IN	 A	172.20.172.110
+www	IN	A	172.20.172.111
+mail	IN 	A	172.20.172.112
+ftp	IN 	CNAME	www.iasoft.com.bo
