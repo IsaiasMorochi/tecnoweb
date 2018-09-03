@@ -1,0 +1,9 @@
+1	crear los inverso y dominio en var/named
+2	agregar los zone en etc/named.conf
+3	/usr/sbin/named-checkconf -z /etc/named.conf
+4	systemctl enable named
+5	systemctl start named
+6	nslookup www.midomio.com.bo localhost
+7	nslookup mail.midominio.com.bo localhost
+8	nslookup ftp.midominio.com.bo localhost
+
