@@ -1,0 +1,4 @@
+AuthName "Solamente usuarios autorizados"
+AuthType Basic
+Require valid-user
+AuthUserFile /var/www/mydir/.claves
