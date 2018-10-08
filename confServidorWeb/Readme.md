@@ -33,7 +33,7 @@ ServerTokens Prod
 ```console
 systemctl restart httpd
 ```
-##<# Crear carpeta:
+### Crear carpeta:
 ```console
 #mkdir -p /var/www/mydir
 ```
@@ -48,7 +48,7 @@ creamos el archivo:
 ```
 agregar las siguiente linea:
 ```console
-Alia /mydir /var/www/mydir
+Alias /mydir /var/www/mydir
 <Directory "/var/www/mydir">
         Options Indexes FollowSymLinks MultiViews
         AllowOverride All
