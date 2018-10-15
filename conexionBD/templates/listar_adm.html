@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Listado de Agenda</title>
+</head>
+<body>
+
+<table width="100%">
+  <tr bgColor="#eeeeee">
+    <td width="661">
+      <p align="left">Listado de Amigos : <b>{$var1}</b></td>
+  </tr>
+</table>
+
+<table border="1" width="100%">
+  <tr>
+    <td width="25%" bgcolor="#FFFFCC" align="center"><b>Identificador</b></td>
+    <td width="25%" bgcolor="#FFFFCC" align="center"><b>Nombre</b></td>
+    <td width="25%" bgcolor="#FFFFCC" align="center"><b>Telefono</b></td>
+  </tr>
+  {section name=pos loop= $var2}
+
+  <tr>
+    <td width="25%" bgcolor="#00FFFF">{$var2[pos].per_idi}</td>
+    <td width="25%" bgcolor="#00FFFF">{$var2[pos].per_nom}</td>
+    <td width="25%" bgcolor="#00FFFF">{$var2[pos].per_tel}</td>
+  </tr>
+  {/section}
+</table>
+
+<table width="100%">
+  <tr bgColor="#eeeeee">
+    <td width="661">
+      <p align="left">Listado de Amigos : <b>{$var1}</b></td>
+  </tr>
+</table>
+
+</body>
+</html>
